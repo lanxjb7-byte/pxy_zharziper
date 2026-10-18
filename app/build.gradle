@@ -1,0 +1,17 @@
+
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.pxy.ziper'
+    compileSdk 35
+
+    defaultConfig {
+        applicationId 'com.pxy.ziper'
+        minSdk 23
+        targetSdk 28
+        versionCode 1
+        versionName '1.0'
+    }
+}
